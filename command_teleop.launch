@@ -1,0 +1,9 @@
+<launch>
+
+<include file="$(find freenect_launch)/launch/freenect.launch"/>
+
+<!--<node pkg="projet1" type="command_teleop.py" name="filter"/>-->
+<node pkg="rviz" type="rviz" name="visu"/>
+
+
+</launch>
